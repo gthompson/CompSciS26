@@ -9,7 +9,7 @@ echo on
 wild echo off
 
 * ---- user settings ----
-setbb INPUT_GLOB "data/local/*.sac"
+setbb INPUT_GLOB "*.SAC"
 setbb FREQMIN "1"
 setbb FREQMAX "10"
 

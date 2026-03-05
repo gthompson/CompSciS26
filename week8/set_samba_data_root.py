@@ -12,3 +12,7 @@ elif os_name == "Linux":
     DATA_ROOT = Path("/mnt/classdata/")
 else:
     raise RuntimeError(f"Unsupported OS: {os_name}")
+
+
+if __name__ == '__main__':
+    print(DATA_ROOT)

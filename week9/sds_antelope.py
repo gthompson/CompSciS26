@@ -191,10 +191,34 @@ def chunked(iterable: Iterable[Path], n: int) -> Iterator[list[Path]]:
         yield batch
 
 
-def ensure_miniseed2db_on_path() -> None:
+import os
+import shutil
+import subprocess
+
+
+def source_antelope_env(setup_script="/opt/antelope/5.15/setup.sh"):
+    """
+    Source the Antelope setup.sh and import its environment variables
+    into the current Python process.
+    """
+    command = f"bash -c 'source {setup_script} && env'"
+    proc = subprocess.run(command, shell=True, capture_output=True, text=True)
+
+    if proc.returncode != 0:
+        raise RuntimeError(f"Failed to source {setup_script}")
+
+    for line in proc.stdout.splitlines():
+        key, _, value = line.partition("=")
+        os.environ[key] = value
+
+
+def ensure_miniseed2db_on_path():
+    if shutil.which("miniseed2db") is None:
+        source_antelope_env()
+
     if shutil.which("miniseed2db") is None:
         raise RuntimeError(
-            "miniseed2db not found on PATH. Load Antelope environment or add it to PATH."
+            "miniseed2db not found even after sourcing Antelope environment."
         )
 
 

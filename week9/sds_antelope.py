@@ -243,12 +243,17 @@ def run_miniseed2db(
 
     processed = 0
     for batch in chunked(files_iter, batch_size):
-        cmd = ["miniseed2db", *extra_args, *[str(p) for p in batch], dbname]
+
+        abs_paths = [str(Path(p).resolve()) for p in batch]
+
+        cmd = ["miniseed2db", *extra_args, *abs_paths, dbname]
+
         processed += len(batch)
+
         if dry_run:
             print("DRY RUN:", " ".join(cmd))
         else:
-            subprocess.run(cmd, check=check, cwd="/")
+            subprocess.run(cmd, check=check)
 
     if processed == 0:
         print("No matching SDS files found.")

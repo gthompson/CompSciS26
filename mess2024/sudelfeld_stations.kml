@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sudelfeld Stations</name>
+
+    <Placemark>
+      <name>CH.FUORN</name>
+      <Point>
+        <coordinates>10.26355100,46.62033400,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CH.LIENZ</name>
+      <Point>
+        <coordinates>9.49270000,47.29460100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CH.SLE</name>
+      <Point>
+        <coordinates>8.49236000,47.76450000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CZ.CKRC</name>
+      <Point>
+        <coordinates>14.30950000,48.81990000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CZ.KHC</name>
+      <Point>
+        <coordinates>13.57820000,49.13090000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CZ.PBCC</name>
+      <Point>
+        <coordinates>13.99530000,49.68560000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CZ.PRIC</name>
+      <Point>
+        <coordinates>12.67820000,49.66930000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>CZ.ZVC</name>
+      <Point>
+        <coordinates>14.19280000,49.43920000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GE.STU</name>
+      <Point>
+        <coordinates>9.19500000,48.77190000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GE.STU</name>
+      <Point>
+        <coordinates>9.19500000,48.77190000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GE.STU</name>
+      <Point>
+        <coordinates>9.19500000,48.77190000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GE.STU</name>
+      <Point>
+        <coordinates>9.19500000,48.77190000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GR.GRA1</name>
+      <Point>
+        <coordinates>11.22172000,49.69188700,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEA0</name>
+      <Point>
+        <coordinates>13.70190000,48.83680000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEA1</name>
+      <Point>
+        <coordinates>13.70390000,48.83630000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEA2</name>
+      <Point>
+        <coordinates>13.70180000,48.83860000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEA3</name>
+      <Point>
+        <coordinates>13.70000000,48.83499900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEB1</name>
+      <Point>
+        <coordinates>13.70750000,48.83890200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEB2</name>
+      <Point>
+        <coordinates>13.69860000,48.83950000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEB3</name>
+      <Point>
+        <coordinates>13.69600000,48.83700200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEB4</name>
+      <Point>
+        <coordinates>13.69890000,48.83269900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEB5</name>
+      <Point>
+        <coordinates>13.70590000,48.83459900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC1</name>
+      <Point>
+        <coordinates>13.70990000,48.84120200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC2</name>
+      <Point>
+        <coordinates>13.70160000,48.84510000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC3</name>
+      <Point>
+        <coordinates>13.69170000,48.84240000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC4</name>
+      <Point>
+        <coordinates>13.68750000,48.83520100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC5</name>
+      <Point>
+        <coordinates>13.69570000,48.82960100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC6</name>
+      <Point>
+        <coordinates>13.70900000,48.82680100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GEC7</name>
+      <Point>
+        <coordinates>13.71450000,48.83540000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED1</name>
+      <Point>
+        <coordinates>13.71480000,48.85179900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED2</name>
+      <Point>
+        <coordinates>13.69640000,48.85319900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED3</name>
+      <Point>
+        <coordinates>13.68180000,48.84650000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED4</name>
+      <Point>
+        <coordinates>13.67960000,48.83860000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED5</name>
+      <Point>
+        <coordinates>13.68070000,48.82460000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED6</name>
+      <Point>
+        <coordinates>13.69660000,48.81940100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED7</name>
+      <Point>
+        <coordinates>13.71590000,48.82090000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED8</name>
+      <Point>
+        <coordinates>13.72610000,48.83319900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GED9</name>
+      <Point>
+        <coordinates>13.72380000,48.84339900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IM.GERES</name>
+      <Point>
+        <coordinates>13.70160000,48.84510000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IU.GRFO</name>
+      <Point>
+        <coordinates>11.22030000,49.69090000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IU.GRFO</name>
+      <Point>
+        <coordinates>11.22030000,49.69090000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>MN.TRI</name>
+      <Point>
+        <coordinates>13.76400000,45.70900000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>MN.TTE</name>
+      <Point>
+        <coordinates>13.79000000,45.66000000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>MN.TUE</name>
+      <Point>
+        <coordinates>9.34732000,46.47223000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.ACOM</name>
+      <Point>
+        <coordinates>13.51490000,46.54790100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.CGRP</name>
+      <Point>
+        <coordinates>11.80470000,45.88060000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.CIMO</name>
+      <Point>
+        <coordinates>12.44480000,46.31160000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.CLUD</name>
+      <Point>
+        <coordinates>12.88140000,46.45690200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.DRE</name>
+      <Point>
+        <coordinates>13.64500000,46.17330200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.FUSE</name>
+      <Point>
+        <coordinates>13.00110000,46.41420000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.MPRI</name>
+      <Point>
+        <coordinates>12.98770000,46.24079900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.PRED</name>
+      <Point>
+        <coordinates>13.56500000,46.44279900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.SABO</name>
+      <Point>
+        <coordinates>13.63370000,45.98749900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>NI.ZOU2</name>
+      <Point>
+        <coordinates>12.97290000,46.55839900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OE.ARSA</name>
+      <Point>
+        <coordinates>15.52320000,47.25050000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OE.DAVA</name>
+      <Point>
+        <coordinates>9.88030000,47.28670100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OE.KBA</name>
+      <Point>
+        <coordinates>13.34470000,47.07840000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.ACOM</name>
+      <Point>
+        <coordinates>13.51490000,46.54790100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.CGRP</name>
+      <Point>
+        <coordinates>11.80470000,45.88060000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.CIMO</name>
+      <Point>
+        <coordinates>12.44480000,46.31160000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.CLUD</name>
+      <Point>
+        <coordinates>12.88140000,46.45690200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.DRE</name>
+      <Point>
+        <coordinates>13.64500000,46.17330200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.FUSE</name>
+      <Point>
+        <coordinates>13.00110000,46.41420000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.MPRI</name>
+      <Point>
+        <coordinates>12.98770000,46.24079900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.PRED</name>
+      <Point>
+        <coordinates>13.56500000,46.44279900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.SABO</name>
+      <Point>
+        <coordinates>13.63370000,45.98749900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>OX.ZOU2</name>
+      <Point>
+        <coordinates>12.97290000,46.55839900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.CADS</name>
+      <Point>
+        <coordinates>13.73680000,46.22810000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.CRNS</name>
+      <Point>
+        <coordinates>14.26130000,46.08070000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.GBAS</name>
+      <Point>
+        <coordinates>14.44340000,45.93479900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.GORS</name>
+      <Point>
+        <coordinates>13.99990000,46.31740200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.JAVS</name>
+      <Point>
+        <coordinates>14.06430000,45.89339800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.LJU</name>
+      <Point>
+        <coordinates>14.52780000,46.04380000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.MOZS</name>
+      <Point>
+        <coordinates>14.44330000,46.29410200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.PERS</name>
+      <Point>
+        <coordinates>15.11390000,46.63650100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.ROBS</name>
+      <Point>
+        <coordinates>13.50940000,46.24449900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.VNDS</name>
+      <Point>
+        <coordinates>14.70140000,46.10160100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.VOJS</name>
+      <Point>
+        <coordinates>13.88770000,46.03220000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SL.ZALS</name>
+      <Point>
+        <coordinates>15.02460000,46.43420000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SR.GRFO</name>
+      <Point>
+        <coordinates>11.22030000,49.69089900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.ARSA</name>
+      <Point>
+        <coordinates>15.52320000,47.25050000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.CADS</name>
+      <Point>
+        <coordinates>13.73680000,46.22810000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.CKRC</name>
+      <Point>
+        <coordinates>14.30950000,48.81990100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.CRNS</name>
+      <Point>
+        <coordinates>14.26130000,46.08070000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.DAVA</name>
+      <Point>
+        <coordinates>9.88030000,47.28670100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.FUORN</name>
+      <Point>
+        <coordinates>10.26352000,46.62022000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.GBAS</name>
+      <Point>
+        <coordinates>14.44340000,45.93479900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.GORS</name>
+      <Point>
+        <coordinates>13.99990000,46.31740200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.GRA1</name>
+      <Point>
+        <coordinates>11.22172000,49.69188700,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.GRFO</name>
+      <Point>
+        <coordinates>11.22030000,49.69089900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.JAVS</name>
+      <Point>
+        <coordinates>14.06430000,45.89339800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.KBA</name>
+      <Point>
+        <coordinates>13.34470000,47.07840000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.KHC</name>
+      <Point>
+        <coordinates>13.57820000,49.13090100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.LIENZ</name>
+      <Point>
+        <coordinates>9.49270000,47.29460100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.LJU</name>
+      <Point>
+        <coordinates>14.52780000,46.04380000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.MOZS</name>
+      <Point>
+        <coordinates>14.44330000,46.29410200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.PBCC</name>
+      <Point>
+        <coordinates>13.99530000,49.68560000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.PERS</name>
+      <Point>
+        <coordinates>15.11390000,46.63650100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.PRIC</name>
+      <Point>
+        <coordinates>12.67820000,49.66930000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.ROBS</name>
+      <Point>
+        <coordinates>13.50940000,46.24449900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.SLE</name>
+      <Point>
+        <coordinates>8.49236000,47.76450000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.STU</name>
+      <Point>
+        <coordinates>9.19500000,48.77190000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.TRI</name>
+      <Point>
+        <coordinates>13.76400000,45.70900000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.TTE</name>
+      <Point>
+        <coordinates>13.79000000,45.66000000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.TUE</name>
+      <Point>
+        <coordinates>9.34732000,46.47222900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.VNDS</name>
+      <Point>
+        <coordinates>14.70140000,46.10160100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.VOJS</name>
+      <Point>
+        <coordinates>13.88770000,46.03220000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.ZALS</name>
+      <Point>
+        <coordinates>15.02460000,46.43420000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SY.ZVC</name>
+      <Point>
+        <coordinates>14.19280000,49.43920100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>X6.EB1</name>
+      <Point>
+        <coordinates>8.70960000,47.04499800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>X6.EB2</name>
+      <Point>
+        <coordinates>8.70960000,47.04499800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>X6.EB3</name>
+      <Point>
+        <coordinates>8.70960000,47.04499800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>X6.EB4</name>
+      <Point>
+        <coordinates>8.70910000,47.04510100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>X6.EB5</name>
+      <Point>
+        <coordinates>8.70910000,47.04520000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A102</name>
+      <Point>
+        <coordinates>13.54200000,48.81349900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A103</name>
+      <Point>
+        <coordinates>13.51060000,48.67190200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A104</name>
+      <Point>
+        <coordinates>13.58850000,48.48040000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A105</name>
+      <Point>
+        <coordinates>13.48960000,48.32799900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A106</name>
+      <Point>
+        <coordinates>13.57430000,48.14609900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A107</name>
+      <Point>
+        <coordinates>13.56650000,47.96429800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A108</name>
+      <Point>
+        <coordinates>13.53880000,47.79150000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A109</name>
+      <Point>
+        <coordinates>13.53540000,47.58520100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A110</name>
+      <Point>
+        <coordinates>13.65140000,47.42179900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A111</name>
+      <Point>
+        <coordinates>13.48850000,47.25550100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A112</name>
+      <Point>
+        <coordinates>13.67590000,47.13320200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A113</name>
+      <Point>
+        <coordinates>13.72630000,46.96789900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A114</name>
+      <Point>
+        <coordinates>13.70260000,46.80180000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A115</name>
+      <Point>
+        <coordinates>13.64770000,46.62920000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A116</name>
+      <Point>
+        <coordinates>13.78490000,46.47449900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A117</name>
+      <Point>
+        <coordinates>13.69410000,46.33089800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A118</name>
+      <Point>
+        <coordinates>13.74160000,46.19150200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A119</name>
+      <Point>
+        <coordinates>13.74130000,45.97250000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A120</name>
+      <Point>
+        <coordinates>13.73480000,45.84260200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A212</name>
+      <Point>
+        <coordinates>14.74470000,47.60689900,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A216</name>
+      <Point>
+        <coordinates>14.28010000,47.20370100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A305</name>
+      <Point>
+        <coordinates>15.01160000,47.93769800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>XM.A601</name>
+      <Point>
+        <coordinates>14.98020000,46.97320200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>YG.CBP4B</name>
+      <Point>
+        <coordinates>15.01702000,48.54991100,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>YG.CBP4C</name>
+      <Point>
+        <coordinates>15.27355000,48.35419800,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>YG.CBP4D</name>
+      <Point>
+        <coordinates>15.47384000,48.11521100,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

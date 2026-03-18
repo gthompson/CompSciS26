@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>Teaching Example</Source>
+  <Module>ObsPy 1.4.2</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2026-02-26T15:50:49.833355Z</Created>
+  <Network code="MV">
+    <Description>Example Montserrat-like teaching network (6 stations, HHZ only)</Description>
+    <Station code="MB01">
+      <Latitude unit="DEGREES">16.72</Latitude>
+      <Longitude unit="DEGREES">-62.54</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB01 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.72</Latitude>
+        <Longitude unit="DEGREES">-62.54</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+    <Station code="MB02">
+      <Latitude unit="DEGREES">16.69</Latitude>
+      <Longitude unit="DEGREES">-62.51</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB02 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.69</Latitude>
+        <Longitude unit="DEGREES">-62.51</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+    <Station code="MB03">
+      <Latitude unit="DEGREES">16.75</Latitude>
+      <Longitude unit="DEGREES">-62.48</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB03 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.75</Latitude>
+        <Longitude unit="DEGREES">-62.48</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+    <Station code="MB04">
+      <Latitude unit="DEGREES">16.67</Latitude>
+      <Longitude unit="DEGREES">-62.47</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB04 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.67</Latitude>
+        <Longitude unit="DEGREES">-62.47</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+    <Station code="MB05">
+      <Latitude unit="DEGREES">16.71</Latitude>
+      <Longitude unit="DEGREES">-62.56</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB05 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.71</Latitude>
+        <Longitude unit="DEGREES">-62.56</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+    <Station code="MB06">
+      <Latitude unit="DEGREES">16.73</Latitude>
+      <Longitude unit="DEGREES">-62.5</Longitude>
+      <Elevation unit="METERS">500.0</Elevation>
+      <Site>
+        <Name>MB06 (example)</Name>
+      </Site>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <Channel code="HHZ" locationCode="">
+        <Latitude unit="DEGREES">16.73</Latitude>
+        <Longitude unit="DEGREES">-62.5</Longitude>
+        <Elevation unit="METERS">500.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>100.0</SampleRate>
+        <Sensor>
+          <Description>Güralp CMG-40T seismometer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>CMG-40T</Model>
+        </Sensor>
+        <DataLogger>
+          <Description>Güralp digitizer (teaching example)</Description>
+          <Manufacturer>Güralp Systems</Manufacturer>
+          <Model>Digitizer</Model>
+        </DataLogger>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

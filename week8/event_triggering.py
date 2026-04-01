@@ -403,7 +403,7 @@ def plot_event_rate(
     df: pd.DataFrame,
     *,
     time_col: str = "on_time",
-    bin_size: str = "1H",                 # pandas offset alias e.g. "10min", "30min", "1H", "1D"
+    bin_size: str = "1h",                 # pandas offset alias e.g. "10min", "30min", "1H", "1D"
     min_snr: Optional[float] = None,
     min_coincidence: Optional[float] = None,
     min_duration_s: Optional[float] = None,
@@ -464,3 +464,100 @@ def plot_event_rate(
         plt.close(fig)
 
     return fig
+
+def plot_stream_with_event_markers(
+    st: Stream,
+    df: pd.DataFrame,
+    *,
+    on_col: str = "on_time",
+    off_col: str = "off_time",
+    show: bool = True,
+    label_lines: bool = True,
+    shade_events: bool = False,
+    shade_alpha: float = 0.15,
+    linewidth: float = 1.5,
+    equal_scale: bool = False,
+):
+    """
+    Plot a Stream and superimpose trigger ON/OFF times on ALL trace axes.
+
+    Parameters
+    ----------
+    st : obspy.Stream
+        Stream to plot.
+    df : pandas.DataFrame
+        Event catalogue containing at least `on_col` and `off_col`.
+    on_col : str
+        Column name for event start times.
+    off_col : str
+        Column name for event end times.
+    show : bool
+        If True, call plt.show().
+    label_lines : bool
+        Add legend labels (only on first axis to avoid duplicates).
+    shade_events : bool
+        If True, shade event windows.
+    shade_alpha : float
+        Transparency for shading.
+    linewidth : float
+        Line width for markers.
+    equal_scale : bool
+        Passed to st.plot(). Default False (recommended for multi-trace plots).
+
+    Returns
+    -------
+    fig, axes
+    """
+
+    if not isinstance(df, pd.DataFrame):
+        raise TypeError("df must be a pandas DataFrame.")
+
+    if on_col not in df.columns or off_col not in df.columns:
+        raise ValueError(f"df must contain '{on_col}' and '{off_col}'.")
+
+    if len(st) == 0:
+        raise ValueError("Stream is empty.")
+
+    # Clean + convert times
+    dff = df[[on_col, off_col]].copy()
+    dff[on_col] = pd.to_datetime(dff[on_col], errors="coerce")
+    dff[off_col] = pd.to_datetime(dff[off_col], errors="coerce")
+    dff = dff.dropna(subset=[on_col, off_col]).sort_values(on_col)
+
+    # Plot stream (important change: equal_scale=False default)
+    fig = st.plot(show=False, handle=True, equal_scale=equal_scale)
+    axes = fig.axes
+
+    if len(dff) == 0:
+        if show:
+            plt.show()
+        return fig, axes
+
+    # Convert times once
+    on_nums = mdates.date2num(dff[on_col].dt.to_pydatetime())
+    off_nums = mdates.date2num(dff[off_col].dt.to_pydatetime())
+
+    # Loop over ALL axes (one per Trace)
+    for i, ax in enumerate(axes):
+        ymin, ymax = ax.get_ylim()
+
+        # Add ON/OFF lines
+        if label_lines and i == 0:
+            ax.vlines(on_nums, ymin, ymax, color="r", lw=linewidth, label="Trigger On")
+            ax.vlines(off_nums, ymin, ymax, color="b", lw=linewidth, label="Trigger Off")
+            ax.legend()
+        else:
+            ax.vlines(on_nums, ymin, ymax, color="r", lw=linewidth)
+            ax.vlines(off_nums, ymin, ymax, color="b", lw=linewidth)
+
+        # Optional shading
+        if shade_events:
+            for on_num, off_num in zip(on_nums, off_nums):
+                ax.axvspan(on_num, off_num, alpha=shade_alpha)
+
+    fig.canvas.draw()
+
+    if show:
+        plt.show()
+
+    return fig, axes

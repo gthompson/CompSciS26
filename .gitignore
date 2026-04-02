@@ -182,3 +182,6 @@ cython_debug/
 
 .DS_Store
 week5/~$mework.docx
+
+.vscode/
+settings.json

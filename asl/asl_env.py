@@ -44,7 +44,7 @@ STATION_CORRECTIONS_DIR = INPUT_DIR / "station_correction_analysis"
 #DIST_MODE = "3d"        # include elevation
 GLOBAL_CACHE = PROJECTDIR / "asl_global_cache"
 OUTPUT_DIR = PROJECTDIR / "ASL_RESULTS"
-OUTPUT_DIR = GLOBAL_CACHE
+#OUTPUT_DIR = GLOBAL_CACHE
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 #RUN_TAG = UTCDateTime().strftime("topo_map_test_%Y%m%dT%H%M%S")

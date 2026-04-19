@@ -1,0 +1,36 @@
+# Constants
+ave_type        rms
+nodet_twin     	2.7 
+pamp            500.0
+thresh         2.4 
+threshoff      1.2 
+det_tmin      4 
+det_tmax       16 
+h               0
+iphase          D
+process_twin    60.0
+latency         3
+maxfuturetime   600.0
+otime_noise_tfac 1.0
+goodvalue_min   100       
+goodvalue_max   0
+
+# Variables
+sta_twin        0.8
+sta_tmin        0.5
+sta_maxtgap     0.25
+lta_twin        4.0
+lta_tmin        2.0
+lta_maxtgap     1.5
+filter          none
+
+bands   &Tbl{
+        &Arr{
+                filter          BW 3.0 4 18.0 4
+        }
+}
+stachans &Tbl{
+.*	[BES]HZ
+}
+reject &Tbl{
+}
